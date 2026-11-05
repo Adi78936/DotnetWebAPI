@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
             new Employee { Id = 3, Name = "Rohan", Age = 21, Department = "Finance" }
         };
 
-        //private static int nextId = 4;
+        
 
         // 1. GET - Get all employees
         [HttpGet("GetAllEmployees")]
